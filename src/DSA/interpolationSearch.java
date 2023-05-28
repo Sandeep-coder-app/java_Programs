@@ -5,7 +5,7 @@ public class interpolationSearch {
     {
         int lo = 0;
         int hi = arr.length - 1;
-        int pos = -1;
+        int pos;
 
         while(lo<=hi)
         {
